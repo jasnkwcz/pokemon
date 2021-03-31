@@ -9,9 +9,6 @@ class Pokemon
     unsigned short lv;
     unsigned short hp;
     unsigned short atk;
-    float chanceOfCrit;
-    float chanceOfDodge;
-    unsigned short defend();
 
   public:
     Pokemon(std::string n, unsigned short l, unsigned short h);
@@ -23,7 +20,5 @@ class Pokemon
     unsigned short getHp();
 
     unsigned short getAtk();
-
-    unsigned short getDefend();
 
 };
